@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    text-align: center;
+    background:linear-gradient(#3d54f5, #f1eac9);
+}
+
+
+#banner{
+    background-image: url("images/worldstreet.webp");
+    background-size: cover;
+    height: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.headers{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+}
+ h3{
+   
+    background: linear-gradient(rgb(158, 158, 216), rgb(243, 233, 233));
+    padding: 5px 6px;
+    color:#272525;
+    text-shadow: 0 0 1px rgb(197, 174, 174);
+    border-radius: 5px;
+}
+.heading{
+    margin-top: 150px;
+    background: linear-gradient(rgb(158, 158, 216), rgb(243, 233, 233));
+    padding: 4px 6px;
+    color:#272525;
+    text-shadow: 0 0 1px rgb(197, 174, 174);
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main-heading{
+    margin-top: 50px;
+    font-family: jost;
+}
+
+.image{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+    border: 5px solid #a9aedb;
+    
+}
+.sections{
+    display: block;
+   
+    margin: 5px auto;
+}
+h4{
+    text-shadow: 0 0 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #272525;
+}
+p{
+    font-family: jost;
+    font-weight: bolder;
+    color: #1b1919;
+}
+#detail{
+  
+    color: #b4590e;
+    font-size: small;   
+   
+  
+}
+#footer{
+   
+    background-image: url("images/footer.png");
+    height: 100px;
+}
+
+#span{
+    border:3px solid #ce6b1a;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(110, 21, 21);
+   
+}
+    
+
+
